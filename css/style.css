@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    width: 100vw;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.container{
+    background-color:  hsl(0, 0%, 12%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.main-conteiner{
+    display: flex;
+    padding: 20px 30px;
+    flex-direction: column;
+}
+
+h1{
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-bottom: 5px;
+    font-weight: 500s;
+}
+
+span{
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+}
+
+h2{
+    font-size: 16px;
+    color: #ccc;
+    margin: 40px;
+    font-weight: 500;
+}
+
+button{
+    align-items: center;
+    display: flex;
+    border: none;
+    width: 300px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-size: 18px;
+    flex-direction: column;
+    margin-bottom: 10px;
+    background-color: hsl(0, 0%, 20%);
+    color: #fff;
+    font-weight: 600;
+    transition: .3s ease;
+}
+
+button:hover{
+    background-color: hsl(0, 1%, 33%) ;
+}
+
+.logo img{
+    border-radius: 50%;
+    margin: 30px;
+
+}
